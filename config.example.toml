@@ -1,0 +1,33 @@
+[db]
+  addr = "127.0.0.1"
+  port = "3306"
+  username = "root"
+  password = "229616801"
+  db_name = "test"
+
+[dbact]
+  addr = "127.0.0.1"
+  port = "3306"
+  username = "root"
+  password = "229616801"
+  db_name = "test"
+
+[dbreport]
+  addr = "127.0.0.1"
+  port = "3306"
+  username = "root"
+  password = "229616801"
+  db_name = "test"
+
+[redis]
+  proto = "tcp"
+  host = "127.0.0.1"
+  port = "6379"
+  auth = "229616801"
+
+[httpClient]
+ timeout=2
+ keepalive=60
+
+[xlog]
+  dir = "/tmp/go"
